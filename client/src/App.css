@@ -1,0 +1,195 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  margin: 0;
+}
+
+.home {
+  width: 100%;
+  text-align: center;
+}
+
+.navbar {
+  margin: 0;
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+}
+
+#mainHead {
+  text-align: left;
+  margin: 50px;
+  cursor: pointer;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.navdiv {
+  position: absolute;
+  right: 50px;
+}
+
+input {
+  margin: 5px;
+  padding: 8px;
+  border-radius: 5px;
+  border-style: solid;
+  font-size: 16px;
+  width: 20%;
+}
+
+.area-container {
+  text-align: center;
+}
+
+textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border-style: solid;
+  height: 500px;
+  width: 90%;
+  font-size: 16px;
+  margin: 5px;
+}
+
+button {
+  margin: 5px;
+  padding: 8px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: cornflowerblue;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: cornflowerblue;
+}
+
+.form-head {
+  width: 90%;
+  margin: 5px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  margin-top: 20px;
+  width: 26%;
+  margin-left: 35%;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form-input {
+  padding: 8px;
+  border-radius: 5px;
+  border-style: solid;
+  font-size: 16px;
+  width: 90%;
+}
+
+.auth {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+}
+
+.link2 {
+  color: rgb(18, 115, 189);
+  font-size: 14px;
+}
+
+.snip-item-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.snip-item {
+  width: 70vw;
+  margin: 15px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.item-textarea {
+  width: 65vw;
+  height: 320px;
+  margin-bottom: 20px;
+  border: solid;
+  border-width: 2 px;
+  border-color: #cdcdd0;
+}
+
+.horizontal-div {
+  display: inline-flex;
+  align-items: center;
+}
+
+.snip-item-div {
+  position: absolute;
+  right: 17vw;
+  margin-left: 50px;
+}
+
+.snip-item-button {
+  background-color: rgb(186, 186, 186);
+  border-color:  rgb(186, 186, 186);
+}
